@@ -1,0 +1,93 @@
+---
+title: "Redaction en Rmarkdown"
+author: "AMINATOU"
+date: "2025-07-05"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#REDACTION RMARKDOWN
+##insertion image ![](logo.jpg)
+
+##INSERTION TABLE
+
+| COL1   | COL2   | COL3   |
+|--------|--------|--------|
+| ligne1 | ligne1 | ligne1 |
+| ligne2 | ligne2 | ligne2 |
+
+## LIEN VERS UNE PAGE/IMAGE OU DOCUMENT EN LIGNE/LOCAL
+
+[cliquez ici pour visiter le site officiel de gooogle](www.google.com)
+
+
+# CODES R MARKDOWN
+
+Pour inserer un code R dans un document rmd on utilise CTRL+ALT+1:
+```{r}
+<-1
+x  
+```
+
+pour voir le type de la variable
+```{r}
+mode(x)
+```
+creer une variable de type chaine de caractere
+
+```{r}
+nom <- "AMI  "
+nom
+mode (nom)
+
+```
+creer une variable de type logique
+```{r}
+
+```
+
+```{r}
+nom<-TRUE
+`nom``
+ceer le type complexe<-10
+```
+
+
+```{r}
+x<-5/10
+x
+```
+```{r}
+exp(-x)
+```
+```{r}
+x-x
+```
+
+
+
+
+
+
+```{r}
+X<-C( 10,15,20,25)
+Y<-C( 1,2,3,4)
+
+db <-data.frame( x,y)
+
+db
+```
+
+
+
+
+
+```{r}
+db<- read.csv( file ="classeur.csv" ,header = TRUE,sep = ";")
+db
+```
+
